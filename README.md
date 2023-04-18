@@ -18,7 +18,7 @@ Include /path/to/coreruleset/rules/*.conf
 This plugin will automatically be enabled by default once you install it.
 
 ## Disabling the plugin
-The plugin can be disabled by uncommenting rule ``9517000`` inside ``/plugins/iRedMail-exclusions-config.conf`` or by removing the includes for this plugin.
+The plugin can be disabled by uncommenting rule ``9518000`` inside ``/plugins/iRedMail-exclusions-config.conf`` or by removing the includes for this plugin.
 
 ## Reporting false positives
 If you find a false positive that this plugin does not cover then please open a new issue with the following details to make troubleshooting easier:
