@@ -8,7 +8,7 @@ CRS Version 4.0 or newer
 To install the plugin add includes to the path for ``iRedMail-exclusions-config.conf`` and ``iRedMail-exclusions-before.conf`` after ``crs-setup.conf`` but before loading any CRS rules. See below for an example on how to install.
 ```
 Include /path/to/coreruleset/modsecurity.conf
-Include /path/to/coreruleset/crs-setup-mail.conf
+Include /path/to/coreruleset/crs-setup.conf
 
 Include /path/to/coreruleset/plugins/iRedMail-exclusions-config.conf
 Include /path/to/coreruleset/plugins/iRedMail-exclusions-before.conf
