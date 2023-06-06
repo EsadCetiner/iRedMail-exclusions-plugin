@@ -1,6 +1,8 @@
 # iRedMail-exclusions-plugin
 This plugin contains exclusion rules to fix false positives when using [iRedMail](https://iredmail.org/) and [CoreRuleSet](https://github.com/coreruleset/coreruleset/). This plugin support Roundcube Webmail, SOGo Groupware, and iRedAdmin admin panel (Open Source Edition).
 
+**Note:** this plugin is designed to be used for an iRedMail email server, if you are using a different email server (eg. Mailcow, Zimbra, Mailu) or built your own from scratch then this plugin may not work correctly.
+
 ## Requirements
 - CRS Version 4.0 or newer
 - ModSecurity compatable Web Application Firewall
